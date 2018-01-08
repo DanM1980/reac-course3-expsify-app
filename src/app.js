@@ -11,9 +11,6 @@ import getVisibleExpenses from './selectors/expenses'
 import { addExpense } from './actions/expenses';
 
 const store = configureStore();
-store.dispatch(addExpense({ description: 'water bill', amount: 4500 }));
-store.dispatch(addExpense({ description: 'gas bill', createdAt: 1000  }));
-store.dispatch(addExpense({ description: 'rent', amount: 12000}));
 
 const jsx = (
     <Provider store={store}>
