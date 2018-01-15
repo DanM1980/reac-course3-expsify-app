@@ -1,4 +1,5 @@
 import React from 'react';
+import 'react-dates/initialize';
 import ExpenseList from './ExpenseList';
 import ExpenseListFilter from './ExpenseListFilter';
 
